@@ -7,6 +7,7 @@
     <!-- font awesome and google fontss -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>love-maths</title>
@@ -17,7 +18,31 @@
         <img src="assets/images/logo.png" alt="logo" class="logo">Love Maths
     </h1>
     <div class="game-area">
-    
+        <div class="controls-area">
+            <button class="btn btn--big btn--green">
+                <i class="fas fa-plus"></i>
+            </button>
+            <button class="btn btn--big btn--blue">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button class="btn btn--big btn--orange">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="btn btn--big btn--red">
+                <i class="fas fa-divide"></i>
+            </button>
+        </div>
+
+        <div class="question-area">
+            <span id="operand1">0</span>
+            <span id="operator">x</span>
+            <span id="operand2">0</span>
+            <span>=</span>
+            <p class="answer-message">Enter Answer:</p>
+            <input type="number" id="answer-box">
+        </div>
+        <button class="btn btn--gray">Submit Answer</button>
+
     </div>
     <div class="score-area">
         <p class="scores">Correct Answers<span id="score">0</span></p>
