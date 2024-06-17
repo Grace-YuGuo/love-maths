@@ -1,116 +1,221 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Maths
 
-Welcome Yu Guo,
+Love Maths is a site that can play one mathmatics game with selecting addition, subtraction,multiplication or division. The site will be targeted to both people who want to play a math game, and people who want to try some mathmatics training. The site aims to provide some fun and some mental training at the same time.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 14, 2024**
 
-## Gitpod Reminders
+![Responsive Mockup](documentation/screenshots/responsive-design.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Index – Table of Contents
+* [User Experience (UX)](#user-experience-ux) 
+* [Features](#features)
+* [Design](#design)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+-   ### User stories
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Homepage:
+        1. In order to **learn about the Principles of prevent** as a **user**, I can **go to the principles section on the homepage**
+        2. In order to **learn about the objectives of prevent** as a **user**, I can **go to the objectives section on the homepage**
+        3. In order to **understand what website I am on** as a **user**, I can **see the welcome message/title on the homepage**
+        4. In order to **understand how prevent operates within the wider context of counter-terrorism** as a **user**, I can **go to the section on the homepage**
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+    -   #### Navigation:
+        1. In order to Menu - links to each page as a **user*, I can **click in each page on navigation bar**
+        2. In order to **links to sections** as a **user*, I can **click on each section in navigation bar**
+	
+    -   #### Footer:
+        1. In order to **in alignment with legal requirement on copyright** as a **website owner**, I can **post disclaimer information visible to all users**
+        2. In order to **check if anything relating to copyright issues** as a **user**, I can **have visibility of the disclaimer information**
+        3. In order to **add interaction with user** as a **website owner**, I can **collect user’ feedback on their experiences of the website**
+        4. In order to **interact with the website** as a **user**, I can **give feedback of the website exploring experience**
+        5. In order to **access related social media  links** as a **user**, I can **quickly connect to the social media platforms**
+        6. In order to *access external links to workshops** as a **user**, I can **quickly connect to the further related workshops**
 
-A blue button should appear to click: _Make Public_,
+    -   #### Case studies:
+        1. In order to **learn about Local examples** as a **user**, I can **find the section on the case studies page**
+        2. In order to **learn about national examples** as a **user**, I can **find the section on the case studies page**
+        3. In order to **learn about community initiatives** as a **user**, I can **find the section on the resources page and  follow links to their websites**
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Resources:
+        1. In order to ** watch you-tube -videos** as a **user**, I can **click on videos in resources**
+        2. In order to **see  profile picture of reformed extremist* as a *user*, I can **click on profile picture in resources**
+        3. In order to **embedded Iframes ** as a **user** , I can  adds the content of the new page while keeping the content of the current document unchanged**
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    -   #### Advice:
+        1. In order to **contact authorities if required** as a **user**, I can **have access to contact authorities**
+        2. In order to **contact for further advice/help** as a **user**, I can **leave the contact details for further correspondences**
+        3. In order to **get advice on how to talk to potential extremist friend** as a **user**, I can **get related advice on this topic**
 
-To log into the Heroku toolbelt CLI:
+     
+## Features 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Existing Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- __Navigation Bar__
 
-------
+  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Case Studies, Resources, and Advice page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-## Release History
+![Nav Bar](documentation/screenshots/header.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __Principles and Objectives Section__
 
-**June 14, 2024,** Temporarily remove Mongo until key issue is resolved
+  - On the landing page the first thing the user can see is a summary of what Prevent aims to do, how schools are involved, the role of prevent officers, and how to spot the signs of radicalisation.
+  - The user will see the value prevent and will hopefully want to learn more on the other web pages.
 
-**May 28 2024:** Fix Mongo and Links installs
+![Club Ethos](documentation/screenshots/home.png)
 
-**April 26 2024:** Update node version to 16
+- __The Footer__ 
 
-**September 20 2023:** Update Python version to 3.9.17.
+  - The footer section includes copyright disclaimer information, a button to a feedback modal form, and social media links to counter terrorism police UK.
+  - The footer is valuable to the user as it encourages them to keep connected via social media, provide us with feedback, and informs any concerned parties of our sources of information.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Footer](documentation/screenshots/footer.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Feedback Modal__ 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - The feedback button found in the footer, opens up a modal which has an email field, textbox area, close and send buttons.
+  - This allows the user to send any feedback they want to about the website, increasing their engagement.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![feedback modal](documentation/screenshots/feedback-form.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __Resources Page__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - The resources page will provide the user with motivational images relating to the elements of Prevent; as well as embed youtube videos from related organizations.
+  - This page is useful to the user as it condenses factual information into easily digestible segments.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Gallery](documentation/screenshots/resources-mobile.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- __Advice Page__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  - This page allows the user to find the appropriate authorities to contact about their concerns.
+  - Alternatively they can provide their contact information if they wish to be contacted. They also have the option to specify their preferred means of contact.
+  - This page is useful to the user as after viewing the other pages, they may recognise symptons of radicalisation in a friend/themself, and need advice on what to do.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Sign Up](documentation/screenshots/advice.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- __Case Studies Page__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - The case studies page will provide the user examples of how Prevent has stepped in, and deradicalised people before they put themselves or others to harm.
+  - This page is useful to the user as it puts faces to the issue of extremism and shows how things can be turned around. This personifies the issues the site is trying to convey.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Case Studies](documentation/screenshots/case-studies.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Features Left to Implement
 
-------
+- Resources: external links to other organizations prevent workshops
+	- It would be helpful to allow users to find other useful workshops about prevent such as online courses.
+- Advice section: how to talk to your potential extremist friend
+	- Not every case needs police intervention. Before contacting the police it is important to assess how extreme your friend is. It may also be possible to help deradicalise them if you have the correct approach. This section would attempt to answer these issues.
+- Links to sections within the page
+	- If we get to a point where our website involves a lot of scrolling, it may be worthwhile adding internal links to segments of the page.
+- Resources: community initiatives
+	- If after viewing our website a user would like to help stop extremism, we would include links to respectable community initiatives that band together to do just that.
+  
+## Design
 
-## FAQ about the uptime script
+-   ### Colour Scheme
+    -  We agreed that a couple dark colours mixed with bright colours would work for our website. Including red was important to convey the danger of terrorism. The colours picked were generated the website [Coolors](https://coolors.co/)
 
-**Why have you added this script?**
+        ![Colour Palette](documentation/colour-palette/colourpalette.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+-   ### Typography
+    - Google Fonts were used to import Roboto condensed and Roboto fonts into styles.css.  These were chosen as they incorporate a lot of straight thick lines which comes across as oppressive. The fonts were tested for their effectiveness by how they made the word 'terrorism' look.
+ 
+    ![Font Pairing](documentation/font-family/font-pair.png)   
 
-**How will this affect me?**
+-   ### Logo/Icon
+    - The logo design incorporates a shield and binoculars. The shield because Prevent seeks to protect, and binoculars because Prevent needs to look closely to spot signs of radicalisation. The logo was generated using [bing copilot designer](https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx)
+ 
+	![Logo](assets/favicon/android-chrome-192x192.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+-   ### Wireframes
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    -   #### Khadeeja Wireframes
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+        ![Khadeeja wireframes](documentation/wireframes/wireframe1.png)
 
-**So….?**
+    -   #### Yu homepage and case studies Wireframes
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+        ![Yu homepage and case studies](documentation/wireframes/wireframe2.png)
 
-**Can I opt out?**
+    -   #### Yu resources and advice Wireframes
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+        ![Yu resources and advice](documentation/wireframes/wireframe3.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Technologies Used
 
-**Anything more?**
+### Languages Used
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
----
+### Frameworks, Libraries & Programs Used
 
-Happy coding!
+-   [Google Fonts:](https://fonts.google.com/) was used to import the 'Roboto Condensed' and 'Roboto' fonts into the style.css file which are used on all pages of the project.
+-   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+-   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+-   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+-   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes during the design process.
+-   [bootstrap 5.3:](https://getbootstrap.com/) was the framework used to streamline styling classes.
+-   [favicon:](https://favicon.io/) was used for creating website logo icons.
+    
+
+## Testing 
+
+
+### Validator Testing 
+
+- HTML
+  - 4 errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkchips.github.io%2Fprevent-awareness%2Findex.html)
+- CSS
+  - 1 error was found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarkchips.github.io%2Fprevent-awareness%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Unfixed Bugs
+
+- Page content keeps disappearing behind header on some screen sizes. This relates to the header being position: fixed. The content needs the margin to be adjusted.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab
+  - Click pages on the left side
+  - In the branch section, use the drop down menu to select the main branch
+  - Click save, and then wait for the deployment to be generated
+  - Click visit site button at top of settings
+
+The live link can be found here - https://markchips.github.io/prevent-awareness/index.html
+
+
+## Credits 
+
+### Content 
+
+- The layout was influenced by the following code institute projects:
+	- [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
+	- [Love Rosie](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master)
+- The following UK government web pages were used for all factual information:
+	- Case Study: https://www.gov.uk/government/publications/the-prevent-duty-safeguarding-learners-vulnerable-to-radicalisation/case-studies
+ 	- Prevent Officers on Home Page: https://www.met.police.uk/advice/advice-and-information/t/prevent/prevent/
+  	- Prevent Terrorism on Homepage: https://www.gov.uk/government/publications/independent-review-of-prevents-report-a[…]endent-review-of-prevent-one-year-on-progress-report-accessible
+  	- Prevent School on HomePage: https://www.teachingcitizenship.org.uk/wp-content/uploads/2022/08/ACT_Prevent-and-controversial-issues-guidance_guide-1.pdf
+  	- Prevent Spotting the Signs: https://www.met.police.uk/advice/advice-and-information/t/prevent/prevent/
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The icons were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts used were imported from [Google Fonts](https://fonts.google.com/)
+
+- Images were sourced from www.freepik.com, and taken from the following web pages:
+	- https://www.freepik.com/free-photo/black-white-vehicles-yellow-caution-tape-near-car-parking-lot-daytime-crime-scene_9818237.htm#fromView=search&page=1&position=34&uuid=69e5363c-95dc-4b74-96a1-cda464b3fd90
+	- https://www.freepik.com/free-vector/crime-scene-with-tape-concept-illustration_37573771.htm#fromView=search&page=1&position=7&uuid=f659683b-489f-444b-8ce9-267a93dde8c1
+	- https://www.freepik.com/free-photo/wedding-bouquet-rocks_3402602.htm#fromView=search&page=1&position=0&uuid=c9b5bc51-2d3c-4268-9e6b-5040e2925bb5
+	- https://www.freepik.com/free-ai-image/diverse-people-addicted-their-smart-devices-scrolling-through-looking-into-their-screens_186027476.htm#fromView=search&page=1&position=17&uuid=8515378b-b6bf-4255-95f5-2a4a3e313bdc
+	- https://www.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_19534931.htm
