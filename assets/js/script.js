@@ -88,7 +88,7 @@ function calculateCorrectAnswer() {
     } else if (operator === "-") {
         return [operand1 - operand2, "substract"];
     } else if(operator==="x"){
-        return [oeprand1 * operand2, "multiply"]
+        return [operand1 * operand2, "multiply"]
     } else if(operator==="/"){
         return [operand1 /operand2, "division"]
     }{
